@@ -7,7 +7,7 @@
   "scripts": {
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi build",
-    "deploy": "npm run site && npm run gh-pages",
+    "deploy": "gh-pages -d dist",
     "fetch:blocks": "pro fetch-blocks && npm run prettier",
     "format-imports": "cross-env import-sort --write '**/*.{js,jsx,ts,tsx}'",
     "gh-pages": "cp CNAME ./dist/ && gh-pages -d dist",
