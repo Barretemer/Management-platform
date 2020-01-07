@@ -1,0 +1,9 @@
+{
+  "originUrl": "http://112.74.201.109/apiDoc-json",
+  "outDir": "./service",
+  "templatePath": "./templates/index",
+  "prettierConfig": {
+    "singleQuote": true,
+    "requirePragma": true
+  }
+}
